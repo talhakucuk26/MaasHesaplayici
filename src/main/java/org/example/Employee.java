@@ -36,16 +36,16 @@ public class Employee {
 
     }
     void raiseSalary(){
-        int maasartisi =0;
+        int raise =0;
         if (2021-this.hireyear <10){
-            maasartisi=(this.salary*5)/100;
-            System.out.println("Maas artisi : " + maasartisi);
+            raise=(this.salary*5)/100;
+            System.out.println("Maas artisi : " + raise);
         } else if (2021-this.hireyear >9 && 2021-this.hireyear <20) {
-            maasartisi=(this.salary*10)/100;
-            System.out.println("Maas artisi : " + maasartisi);
+            raise=(this.salary*10)/100;
+            System.out.println("Maas artisi : " + raise);
         } else if (2021-this.hireyear >10) {
-            maasartisi=(this.salary*15)/100;
-            System.out.println("Maas artisi : " + maasartisi);
+            raise=(this.salary*15)/100;
+            System.out.println("Maas artisi : " + raise);
         }
     }
     void tostring (){
